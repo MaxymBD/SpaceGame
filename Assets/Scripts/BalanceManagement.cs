@@ -3,21 +3,22 @@ using UnityEngine;
 
 public class BalanceManagement : MonoBehaviour
 {
-    public int coinBalance;
-    private TMP_Text _textMeshPro;
-
-    private void Start()
-    {
-        _textMeshPro = GameObject.Find("Balance").GetComponent<TMP_Text>();
-    }
-
+    public static int coinBalance = 0;
     private void Update()
     {
-        _textMeshPro.text = $"Coins: {coinBalance}";
+        if (ObjectHandler.BalanceText != null)
+        {
+            ObjectHandler.BalanceText.text = $"Coins: {coinBalance}";
+        }
     }
 
     public void CoinBalanceSubtraction(int coinsToSubtract)
     {
         coinBalance -= coinsToSubtract;
+    }
+
+    public void CoinAdding()
+    {
+        coinBalance += DragAndDrop_.earnedCoins;
     }
 }

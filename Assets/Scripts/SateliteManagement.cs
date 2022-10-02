@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,8 +7,9 @@ public class SateliteManagement : MonoBehaviour
 {
     [SerializeField] private SateliteModule _sateliteModule;
     [SerializeField] private GameObject _buyButton;
+    [SerializeField] private GameObject _descriptionHandler;
+    [SerializeField] private GameObject _notificationHandler;
     private BalanceManagement _balanceManagement;
-    private GameObject _descriptionPanel;
     private TMP_Text _titleText;
     private TMP_Text _descriptionText;
     private Button _installButton;
@@ -15,19 +17,29 @@ public class SateliteManagement : MonoBehaviour
 
     private void Start()
     {
+        ObjectHandler.DescriptionHandler.SetActive(false);
+        ObjectHandler.NotificationHandler.SetActive(false);
         gameObject.SetActive(false);
         _animator = gameObject.GetComponent<Animator>();
         _buyButton.GetComponentInChildren<TMP_Text>().text = _sateliteModule.Name;
         _balanceManagement = GameObject.Find("GameController").GetComponent<BalanceManagement>();
     }
 
-    public void BuySateliteModule()
+    public void BuySateliteModule(int moduleIndex)
     {
-        _balanceManagement.CoinBalanceSubtraction(_sateliteModule.Price);
+        if (BalanceManagement.coinBalance - _sateliteModule.Price >= 0)
+        {
+            _balanceManagement.CoinBalanceSubtraction(_sateliteModule.Price);
 
-        _buyButton.SetActive(false);
+            _buyButton.SetActive(false);
+            _descriptionHandler.SetActive(true);
 
-        ShowSateliteModuleDescription();
+            ShowSateliteModuleDescription();
+        }
+        else
+        {
+            _notificationHandler.SetActive(true);
+        }
     }
 
     public void ShowSateliteModuleDescription()
