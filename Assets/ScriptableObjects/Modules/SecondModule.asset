@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11348261afc96f4e8e735d7b4da6698, type: 3}
   m_Name: SecondModule
   m_EditorClassIdentifier: 
-  Name: Second Module
+  Name: Secondary mirror
   Price: 15000
-  Description: Second Module Description
+  Description: Once in space, getting these mirrors to focus correctly on faraway
+    galaxies is another challenge. Actuators, or tiny mechanical motors, provide
+    the answer to achieving a single perfect focus. The primary mirror segments and
+    secondary mirror are moved by six actuators that are attached to the back of
+    each mirror piece. The primary mirror segments also have an additional actuator
+    at its center that adjusts its curvature. The telescope's tertiary mirror remains
+    stationary.
   Bought: 0
   Index: 3

@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11348261afc96f4e8e735d7b4da6698, type: 3}
   m_Name: FirstModule
   m_EditorClassIdentifier: 
-  Name: First Module
+  Name: Mirror and instruments
   Price: 20000
-  Description: First Module Description
+  Description: "One of the James Webb Space Telescope's science goals is to look
+    back through time to when galaxies were young. Webb will do this by observing
+    galaxies that are very distant, at over 13 billion light years away from us.
+    To see such far-off and faint objects, Webb needs a large mirror. A telescope\u2019s
+    sensitivity, or how much detail it can see, is directly related to the size of
+    the mirror area that collects light from the objects being observed. A larger
+    area collects more light, just like a larger bucket collects more water in a
+    rain shower than a small one."
   Bought: 1
   Index: 1

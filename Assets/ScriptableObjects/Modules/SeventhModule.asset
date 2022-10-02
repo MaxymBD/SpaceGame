@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11348261afc96f4e8e735d7b4da6698, type: 3}
   m_Name: SeventhModule
   m_EditorClassIdentifier: 
-  Name: Seventh Module
+  Name: Sails
   Price: 7777
-  Description: Seventh Module Description
+  Description: The real goal in solar sailing is to spend less money on fuel, not
+    to mention the endless source of energy which is the Sun. Exploring the Solar
+    System with solar sails would be very efficient, less expensive, and even maybe
+    visit other stars.
   Bought: 0
   Index: 4

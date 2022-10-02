@@ -12,8 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11348261afc96f4e8e735d7b4da6698, type: 3}
   m_Name: ThirdModule
   m_EditorClassIdentifier: 
-  Name: Third Module
+  Name: Solar panels 01
   Price: 1000
-  Description: Third Module Description
+  Description: "The telescope uses less power than one might think. In fact, only
+    one kilowatt, equivalent to the power used in microwaving your lunch, is needed
+    to power the device. NASA said Webb will stay energy efficient more than 1 million
+    miles from Earth, reliably powered by photovoltaics. A 20-foot fold-out solar
+    array is attached to the main observatory of the craft. It will act as the \u2018powerhouse\u2019
+    for the telescope, supplying energy to all its scientific instruments, communications,
+    and propulsion systems. The system is sized at 2 kW to account for the degradation
+    that will occur over time due to the harsh conditions of space."
   Bought: 0
   Index: 6

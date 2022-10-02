@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11348261afc96f4e8e735d7b4da6698, type: 3}
   m_Name: FifthModule
   m_EditorClassIdentifier: 
-  Name: Fifrth Module
+  Name: Structure
   Price: 8999
-  Description: Fifth Module Description
+  Description: 'The Spacecraft Bus provides the support functions for the operation
+    of the Observatory. The bus houses the six major subsystems needed to operate
+    the spacecraft: the Electrical Power Subsystem, the Attitude Control Subsystem,
+    the Communication Subsystem, the Command and Data Handling Subsystem, the Propulsion
+    Subsystem, and the Thermal Control Subsystem.'
+  Bought: 0
+  Index: 0
