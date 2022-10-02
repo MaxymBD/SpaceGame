@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Third Module
   Price: 1000
+  Description: Third Module Description

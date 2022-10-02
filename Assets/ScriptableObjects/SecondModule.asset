@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Second Module
   Price: 15000
+  Description: Second Module Description

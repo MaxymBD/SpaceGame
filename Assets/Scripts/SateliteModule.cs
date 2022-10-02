@@ -5,4 +5,5 @@ public class SateliteModule : ScriptableObject
 {
     public string Name;
     public int Price;
+    public string Description;
 }

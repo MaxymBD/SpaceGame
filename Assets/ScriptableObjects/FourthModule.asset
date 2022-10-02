@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Fourth Module
   Price: 5000
+  Description: Fourth Module Description
