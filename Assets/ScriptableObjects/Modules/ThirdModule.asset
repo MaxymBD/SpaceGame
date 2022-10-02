@@ -15,3 +15,5 @@ MonoBehaviour:
   Name: Third Module
   Price: 1000
   Description: Third Module Description
+  Bought: 0
+  Index: 6

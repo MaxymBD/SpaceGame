@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,15 +16,21 @@ public class SateliteManagement : MonoBehaviour
 
     private void Start()
     {
+        gameObject.SetActive(false);
         ObjectHandler.DescriptionHandler.SetActive(false);
         ObjectHandler.NotificationHandler.SetActive(false);
-        gameObject.SetActive(false);
         _animator = gameObject.GetComponent<Animator>();
         _buyButton.GetComponentInChildren<TMP_Text>().text = _sateliteModule.Name;
         _balanceManagement = GameObject.Find("GameController").GetComponent<BalanceManagement>();
+
+        if (_sateliteModule.Bought == true)
+        {
+            gameObject.SetActive(true);
+            _buyButton.SetActive(false);
+        }
     }
 
-    public void BuySateliteModule(int moduleIndex)
+    public void BuySateliteModule()
     {
         if (BalanceManagement.coinBalance - _sateliteModule.Price >= 0)
         {
@@ -35,6 +40,8 @@ public class SateliteManagement : MonoBehaviour
             _descriptionHandler.SetActive(true);
 
             ShowSateliteModuleDescription();
+
+            _sateliteModule.Bought = true;
         }
         else
         {

@@ -16,7 +16,7 @@ public class piceseScript : MonoBehaviour
     
     void Update()
     {
-        if (Vector3.Distance(transform.position, RightPosition) < 20f)
+        if (Vector3.Distance(transform.position, RightPosition) < 2f)
         {
             if (!Selected)
             {

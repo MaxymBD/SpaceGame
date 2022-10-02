@@ -15,3 +15,5 @@ MonoBehaviour:
   Name: Second Module
   Price: 15000
   Description: Second Module Description
+  Bought: 0
+  Index: 3

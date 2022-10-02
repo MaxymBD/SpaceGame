@@ -7,4 +7,5 @@ public class SateliteModule : ScriptableObject
     public int Price;
     public string Description;
     public bool Bought;
+    public int Index;
 }

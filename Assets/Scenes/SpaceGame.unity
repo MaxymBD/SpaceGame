@@ -873,7 +873,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1230357538}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16036,6 +16036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7ec7c6701697547868de9608d8f354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataStorage: {fileID: 11400000, guid: 33f6612423f540d448c38f7b7fca0fa1, type: 2}
 --- !u!4 &549792338
 Transform:
   m_ObjectHideFlags: 0
@@ -16129,7 +16130,7 @@ MonoBehaviour:
       - m_Target: {fileID: 727903869}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16325,7 +16326,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1402602428}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17105,7 +17106,7 @@ MonoBehaviour:
       - m_Target: {fileID: 636720844}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18810,7 +18811,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1255246163}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -25240,7 +25241,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1439101554}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -25589,7 +25590,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1678863242}
         m_TargetAssemblyTypeName: SateliteManagement, Assembly-CSharp
         m_MethodName: BuySateliteModule
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

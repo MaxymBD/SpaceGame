@@ -1,14 +1,21 @@
-using TMPro;
 using UnityEngine;
 
 public class BalanceManagement : MonoBehaviour
 {
-    public static int coinBalance = 0;
+    public DataStorage dataStorage;
+    public static int coinBalance;
+
+    private void Start()
+    {
+        coinBalance = dataStorage.coinBalance;
+    }
+
     private void Update()
     {
         if (ObjectHandler.BalanceText != null)
         {
             ObjectHandler.BalanceText.text = $"Coins: {coinBalance}";
+            dataStorage.coinBalance = coinBalance;
         }
     }
 
@@ -19,6 +26,6 @@ public class BalanceManagement : MonoBehaviour
 
     public void CoinAdding()
     {
-        coinBalance += DragAndDrop_.earnedCoins;
+        dataStorage.coinBalance += DragAndDrop_.earnedCoins;
     }
 }
